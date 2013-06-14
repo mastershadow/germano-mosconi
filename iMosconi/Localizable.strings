@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iMosconi
+
+  Created by Eduard Roccatello on 13/06/13.
+  Copyright (c) 2013 Eduard Roccatello. All rights reserved.
+*/
+
+"main.title" = "Germano Mosconi";
+"about.title" = "Informazioni su questa App";
+"about.message" = "Tributo a Germano Mosconi, scoparso nel 2012.\n\nCreata da Eduard Roccatello e rilasciata sotto licenza BSD.\n\nhttp://www.roccatello.com";

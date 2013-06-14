@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface IMViewController : UIViewController
+@interface IMViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, AVAudioPlayerDelegate>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray *audioFiles;
+@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
 
 @end
